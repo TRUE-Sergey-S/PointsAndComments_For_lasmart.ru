@@ -1,4 +1,13 @@
 ﻿function Draw() {
+    $.ajax({
+        url: '/Point/GetAllPoint',
+        type: 'GET',
+        success: function (jsonRequest) {
+            alert("OK");
+            alert(jsonRequest);
+        },
+        error: alert("error")
+        })
 }
 
     /*

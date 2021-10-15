@@ -38,3 +38,9 @@ E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\obj
 E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\obj\Debug\net5.0\PointsAndComments_For_lasmart.ru.RazorTargetAssemblyInfo.cs
 E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\obj\Debug\net5.0\PointsAndComments_For_lasmart.ru.Views.pdb
 E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.Razor.dll
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.Helpers.dll
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.WebPages.dll
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll

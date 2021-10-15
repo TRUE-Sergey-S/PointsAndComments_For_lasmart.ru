@@ -11,9 +11,9 @@ namespace PointsAndComments_For_lasmart.ru.Controllers
             repository = repo;
         }
         [HttpGet]
-        public ActionResult GetAllPoint() {
+        public JsonResult GetAllPoint() {
             var jsonResult = Json(repository.GetAllPoints());
-            return jsonResult;
+            return Json(jsonResult, JsonRequestBehavior.AllowGet); ;
         }
         public IActionResult Index()
         {
