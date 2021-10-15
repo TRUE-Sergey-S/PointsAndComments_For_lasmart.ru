@@ -44,3 +44,4 @@ E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin
 E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
 E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.WebPages.dll
 E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+E:\GitRepo\PointsAndComments_For_lasmart.ru\PointsAndComments_For_lasmart.ru\bin\Debug\net5.0\System.Web.Mvc.dll

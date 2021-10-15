@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PointsAndComments_For_lasmart.ru.Models;
+using System.Threading.Tasks;
 
 namespace PointsAndComments_For_lasmart.ru.Controllers
 {
@@ -11,13 +12,22 @@ namespace PointsAndComments_For_lasmart.ru.Controllers
             repository = repo;
         }
         [HttpGet]
-        public JsonResult GetAllPoint() {
-            var jsonResult = Json(repository.GetAllPoints());
-            return Json(jsonResult, JsonRequestBehavior.AllowGet); ;
+        public async Task<JsonResult> GetAllPoint() {
+            return Json(await repository.GetAllPoints());
         }
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<JsonResult> RemovePoint(int Id)
+        {
+            if (await repository.DeletePointByID(Id))
+            {
+                return Json(true);
+            }
+            return Json(false);
         }
     }
 }

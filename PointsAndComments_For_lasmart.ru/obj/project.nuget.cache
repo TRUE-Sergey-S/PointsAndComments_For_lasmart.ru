@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7k4fWYVDAXMCA2OzMRegEQRrtdhkQAVtnnOgFtkgrOMzLWi0a2i/AldDSsXd9FGnA0ZQsRuGFHrq34vku+mBYA==",
+  "dgSpecHash": "hgzm+XbW5kmyvvqFeAxDttmz0EEg3gtal+wnOOxahNSYV0gnEWdadN8gnbu0bEtFkkCplEL2YlM0ZfCv0Bm8iA==",
   "success": true,
   "projectFilePath": "E:\\GitRepo\\PointsAndComments_For_lasmart.ru\\PointsAndComments_For_lasmart.ru\\PointsAndComments_For_lasmart.ru.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\S\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
     "C:\\Users\\S\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
     "C:\\Users\\S\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
     "C:\\Users\\S\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
@@ -24,6 +25,16 @@
     "C:\\Users\\S\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
