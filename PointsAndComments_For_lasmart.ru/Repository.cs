@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace PointsAndComments_For_lasmart.ru.Views
 {
-    public class Repository:IRepository
+    public class Repository : IRepository
     {
         private ApplicationContext db;
-        public Repository(ApplicationContext context) {
+        public Repository(ApplicationContext context)
+        {
             db = context;
         }
 
         public async Task<bool> DeletePointByID(int id)
         {
-            var point = await db.Points.FirstOrDefaultAsync(i=>i.ID == id);
+            var point = await db.Points.FirstOrDefaultAsync(i => i.ID == id);
             if (point != null)
             {
                 db.Points.Remove(point);
@@ -25,7 +26,8 @@ namespace PointsAndComments_For_lasmart.ru.Views
             return false;
         }
 
-        public async Task<List<Point>> GetAllPoints() {
+        public async Task<List<Point>> GetAllPoints()
+        {
 
             var Points = await db.Points.ToListAsync();
             foreach (var item in Points)
@@ -34,7 +36,8 @@ namespace PointsAndComments_For_lasmart.ru.Views
             }
             return Points;
         }
-        private async Task<List<Comment>> GetComments(int PointID){
+        private async Task<List<Comment>> GetComments(int PointID)
+        {
             return await db.Comments.Where(i => i.PointID == PointID).ToListAsync();
         }
     }
